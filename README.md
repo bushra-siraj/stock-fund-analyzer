@@ -8,6 +8,8 @@ app_port: 7860
 pinned: false
 ---
 
+live link of the website : https://huggingface.co/spaces/bushra-siraj/stock-fund-analyzer
+
 # 📈 LSTM Stock Fund Investment Analyzer
 
 An AI-powered stock analysis tool that uses a **2-layer stacked LSTM neural network** to analyze candlestick patterns and generate BUY / HOLD / SELL signals with confidence scores.
