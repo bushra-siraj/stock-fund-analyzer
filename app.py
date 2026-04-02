@@ -11,6 +11,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import accuracy_score, classification_report, roc_auc_score
+os.environ["KERAS_BACKEND"] = "tensorflow"
 os.environ["TF_ENABLE_ONEDNN_OPTS"] = "0"
 import tensorflow as tf
 from tensorflow.keras import layers, models, callbacks
